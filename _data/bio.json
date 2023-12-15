@@ -1,0 +1,107 @@
+{
+  "basics": {
+    "name": "Liam Tapper",
+    "label": "Student",
+    "picture": "../img/0.jpg",
+    "email": "tliam@hawaii.edu",
+    "phone": "808-457-5197",
+    "website": "https://tliam1.github.io",
+    "summary": "I am studying for a B.S. in Computer Engineering at the University of Hawaii. I expect to graduate in Spring, 2024.",
+    "location": { "address": "41-895 Kalanianaole Hwy", "postalCode": "96795", "city": "Waimanalo", "countryCode": "USA", "region": "Hawaii" },
+    "profiles": [
+      { "network": "github", "username": "tliam1", "url": "http://github.com/tliam1" },
+      { "network": "linkedin", "username": "Liam Tapper", "url": "http://linkedin.com/in/liam-tapper-837528264" }
+    ]
+  },
+  "interests": [
+    { "name": "Game Development" },
+    { "name": "Database Design" },
+    { "name": "Networking" },
+    { "name": "Robotics" },
+    { "name": "UI Design" }
+  ],
+  "skills": [
+    {
+      "name": "Languages and Frameworks",
+      "keywords": [ "C", "C++", "Javascript", "MIPS", "SQL", "C#", "SystemVerilog/Verilog", "MATLAB", "Python", "JavaScript" ]
+    },
+    {
+      "name": "Toolsets/OS",
+      "keywords": [ "MacOS", "Linux", "Git/GitHub", "Windows" ]
+    },
+    {
+      "name": "Frameworks",
+      "keywords": [ "Meteor", "MongoDB" ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Kailua High School, Kailua, HI",
+      "area": "GPA: 3.87",
+      "studyType": "Diploma",
+      "startDate": "2016-08-01",
+      "endDate": "2020-06-23",
+      "courses": [
+      ]
+    },
+    {
+      "institution": "University of Hawaii, Honolulu, HI",
+      "area": "Computer Engineering (expected Spring, 2024)",
+      "studyType": "B.S.",
+      "startDate": "2020-08-06",
+      "endDate": "Present",
+      "courses": [
+      ]
+    }
+  ],
+  "work": [
+    {
+      "company": "Creation of a Database in C++",
+      "website": "https://github.com/tliam1/ee205-animal-farm",
+      "startDate": "2021",
+      "summary": "Collects information on cats and dogs and stores them within their respective linked list. This utilizes a hierarchical system (inheritance) to create multiple types and instances of dogs/cats. This project is also documented using Doxygen (Linked below).",
+      "highlights": [
+        "http://www2.hawaii.edu/~tliam/ee205/ee205_animal_farm/index.html"
+      ]
+    },
+    {
+      "company": "Minecraft Texture Randomizer",
+      "website": "https://github.com/tliam1/MinecraftAssetRandomization",
+      "startDate": "2021",
+      "summary": "This Python project uses the default Minecraft texture folder and randomizes each file held within it. Minecraft applies textures based on the name/location of the file and folder size. This program shuffles around the files and renames them to files that were originally in the shuffled location all while maintaining the structure of the texture folder. This was a public website, but the offered free trial has since ended.",
+      "highlights": [
+      ]
+    },
+    {
+      "company": "Modeling a Single-Cycle Processor in SystemVerilog",
+      "website": "https://www.edaplayground.com/x/GmVk",
+      "startDate": "2021",
+      "summary": "This program simulates the functions of a single-cycle processor by handling branches/conditional branches, additions, subtractions, and noOps. This program cycle shifts instruction sets through each stage of the processor (IF, ID, EX, MEM, and WB).",
+      "highlights": [
+        "IF: Instruction Fetch", "ID: Instruction Decode", "EX: Execute", "MEM: Memory", "WB: Write Back"
+      ]
+    },
+    {
+      "company": "A WebSite For Food Vendors",
+      "website": "https://github.com/food-now/MM",
+      "startDate": "2023",
+      "summary": "This was the final project created for UH Manoa’s ICS314 class. It utilizes Meteor as the primary web framework and MongoDB for data storage. The site, currently deployed (though subject to change), enables users with a vendor role to publish food items for their respective companies. The target audience for this site is UH Manoa vendors, aiming to facilitate the sharing of each vendor’s menus. Users with the admin role can monitor, promote, and demote other users as necessary. Essentially, they serve as system administrators of the database and possess all the functionalities of a vendor. Users with the customer role are typical page viewers; they can access and view menus but are restricted from adding items to them.",
+      "highlights": [
+        "MongoDB", "Meteor", "JavaScript", "https://github.com/food-now/MM"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "B+ Scholarship",
+      "date": "2020-2023",
+      "awarder": "State of Hawaii",
+      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
+    }
+  ],
+  "references": [
+    {
+      "name": "Available upon request"
+    }
+  ]
+}
