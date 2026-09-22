@@ -6,14 +6,10 @@
   "homepage": "http://tliam1.github.com/",
   "scripts": {
     "dev": "vite",
-    "predeploy": "pnpm run gh-build",
     "deploy": "gh-pages -d build",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "gh-build": "react-scripts build",
-    "gh-test": "react-scripts test",
-    "gh-eject": "react-scripts eject"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@base-ui/react": "^1.8.0",
