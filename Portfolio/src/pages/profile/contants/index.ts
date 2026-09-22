@@ -1,0 +1,1 @@
+export type { profile } from "./profile"
