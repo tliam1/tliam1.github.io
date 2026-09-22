@@ -6,6 +6,7 @@ import pdfWorker from 'pdfjs-dist/build/pdf.worker.min.mjs?url'
 import 'react-pdf/dist/Page/AnnotationLayer.css'
 import 'react-pdf/dist/Page/TextLayer.css'
 import { Button } from '@/components/ui/button'
+import { Link } from 'react-router-dom'
 
 pdfjs.GlobalWorkerOptions.workerSrc = pdfWorker
 
@@ -23,10 +24,10 @@ export function ResumeViewer() {
         <div className="mx-auto flex h-14 max-w-5xl items-center justify-between px-4 sm:px-6">
           <nav className="flex items-center gap-1">
             <Button variant="ghost" size="sm">
-              <a href="/">About</a>
+              <Link to="/#">About</Link>
             </Button>
             <Button variant="ghost" size="sm">
-              <a href="/skills">Skills</a>
+              <Link to="/skills">Skills</Link>
             </Button>
           </nav>
         </div>

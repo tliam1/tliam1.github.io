@@ -1,6 +1,7 @@
 import { Button } from '@/components/ui/button';
 import { GraphCanvas, darkTheme } from 'reagraph';
 import { edges, nodes } from './constants';
+import { Link } from 'react-router-dom';
 
 export function SkillsGraph() {
   return (
@@ -9,10 +10,10 @@ export function SkillsGraph() {
         <div className="mx-auto flex h-14 max-w-5xl items-center justify-between px-4 sm:px-6">
           <nav className="flex items-center gap-1">
             <Button variant="ghost" size="sm">
-              <a href="/">About</a>
+              <Link to="/#">About</Link>
             </Button>
             <Button variant="ghost" size="sm">
-              <a href="/resume">Resume</a>
+              <Link to="/resume">Resume</Link>
             </Button>
           </nav>
         </div>

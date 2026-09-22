@@ -16,6 +16,7 @@ import { Separator } from "@/components/ui/separator"
 import { profile } from "./contants/profile"
 import { ProfileImage, ExperienceItem, ExternalLinkCard } from "./components"
 import resumePdf from "@/assets/Liam_Tapper_Resume_SEPT_06_2026.pdf"
+import { Link } from 'react-router-dom'
 
 export default function ProfilePage() {
   return (
@@ -28,10 +29,10 @@ export default function ProfilePage() {
           </a>
           <nav className="flex items-center gap-1">
             <Button variant="ghost" size="sm">
-              <a href="/resume">Resume</a>
+              <Link to="/resume">Resume</Link>
             </Button>
             <Button variant="ghost" size="sm">
-              <a href="/skills">Skills</a>
+              <Link to="/skills">Skills</Link>
             </Button>
           </nav>
         </div>
@@ -125,13 +126,10 @@ export default function ProfilePage() {
               </div>
               <div className="flex gap-2">
                 <Button variant="outline">
-                  <a
-                    href="/resume"
-                    className="inline-flex items-center whitespace-nowrap"
-                  >
+                  <Link to="/resume" className="inline-flex items-center whitespace-nowrap">
                     View resume
                     <ArrowUpRight className="ml-2 h-4 w-4" />
-                  </a>
+                  </Link>
                 </Button>
                 <Button>
                   <a
@@ -155,13 +153,10 @@ export default function ProfilePage() {
               <h2 className="text-xl font-semibold">Skills</h2>
             </div>
             <Button variant="ghost" size="sm">
-              <a 
-                href="/skills" 
-                className="inline-flex items-center whitespace-nowrap"
-              >
+              <Link to="/skills" className="inline-flex items-center whitespace-nowrap">
                 Explore graph
                 <ArrowUpRight className="ml-1 h-4 w-4" />
-              </a>
+              </Link>
             </Button>
           </div>
           <Card>
